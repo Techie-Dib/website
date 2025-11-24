@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information Technology - Gauhati University</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Floating Top Navigation -->
+    <nav class="floating-nav" id="floatingNav">
+      <div class="nav-brand">
+        <img src="assets/gu-logo-green.png" alt="GU Logo" class="logo" />
+        <span class="brand-text">Gauhati University</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#events" class="nav-link">Events</a></li>
+        <li><a href="#facilities" class="nav-link">Facilities</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#programs" class="mobile-link">Programs</a></li>
+        <li><a href="#events" class="mobile-link">Events</a></li>
+        <li><a href="#facilities" class="mobile-link">Facilities</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Announcement Ticker -->
+    <div class="neon-ticker">
+      <div class="ticker-content">
+        <span class="ticker-item">🎓 Academic Council Meeting | </span>
+        <span class="ticker-item"
+          >📢 Principal Position Open - Beltola College |
+        </span>
+        <span class="ticker-item">🎉 GU Youth Festival 2025 | </span>
+        <span class="ticker-item">🎓 Academic Council Meeting | </span>
+        <span class="ticker-item"
+          >📢 Principal Position Open - Beltola College |
+        </span>
+        <span class="ticker-item">🎉 GU Youth Festival 2025 | </span>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-modern" id="home">
+      <div class="hero-container">
+        <div class="breadcrumb-modern">
+          <a href="#" class="crumb">Home</a>
+          <i class="fas fa-chevron-right"></i>
+          <span class="crumb current">Information Technology</span>
+        </div>
+
+        <p class="hero-subtitle">
+          Department of Information Technology
+        </p>
+
+        <div class="hero-stats">
+          <div class="stat-card glass">
+            <div class="stat-number">1000+</div>
+            <div class="stat-label">Students</div>
+          </div>
+          <div class="stat-card glass">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Faculty</div>
+          </div>
+          <div class="stat-card glass">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Programs</div>
+          </div>
+          <div class="stat-card glass">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Years</div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn-primary glow">
+            <i class="fas fa-play"></i>
+            Explore Department
+          </button>
+          <button class="btn-secondary glass">
+            <i class="fas fa-download"></i>
+            Downloads
+          </button>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <p>Scroll to explore</p>
+      </div>
+    </section>
+
+    <!-- Quick Links Floating Menu -->
+    <div class="quick-links-menu glass" id="quickLinks">
+      <button class="quick-link-btn" title="Vision" onclick="window.location.href='vision.html'">
+        <i class="fas fa-eye"></i>
+      </button>
+      <button class="quick-link-btn" title="People" onclick="window.location.href='people.html'">
+        <i class="fas fa-users"></i>
+      </button>
+      <button class="quick-link-btn" title="Placement" onclick="window.location.href='placement.html'">
+        <i class="fas fa-briefcase"></i>
+      </button>
+      <button class="quick-link-btn" title="Research" onclick="window.location.href='research.html'">
+        <i class="fas fa-flask"></i>
+      </button>
+      <button class="quick-link-btn" title="Courses" onclick="window.location.href='course.html'">
+        <i class="fas fa-book"></i>
+      </button>
+      <button class="quick-link-btn" title="Gallery" onclick="window.location.href='gallery.html'">
+        <i class="fas fa-building"></i>
+      </button>
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Us</span>
+          <h2 class="section-title">Welcome to IT Department</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image glass">
+            <img
+              src="assets/front-view.jpeg"
+              alt="IT Department Building"
+            />
+          </div>
+
+          <div class="about-content">
+            <div class="content-card glass">
+              <p class="lead-text">
+                The Department of Information Technology (renaming the
+                Department of Computer & Information Technology in June 2012)
+                under the Faculty of Technology, GU has been established to
+                facilitate a state-of-the-art infrastructure for different
+                Undergraduate, Postgraduate, and Research programs in the field
+                of Computer and Information Technologies.
+              </p>
+
+              <div class="features-grid">
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h4>Quality Education</h4>
+                  <p>State-of-the-art learning environment</p>
+                </div>
+
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="fas fa-laptop-code"></i>
+                  </div>
+                  <h4>Modern Labs</h4>
+                  <p>Cutting-edge technology infrastructure</p>
+                </div>
+
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="fas fa-award"></i>
+                  </div>
+                  <h4>Expert Faculty</h4>
+                  <p>Experienced and dedicated professors</p>
+                </div>
+
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <h4>Global Network</h4>
+                  <p>International collaborations</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs-section" id="programs">
+      <div class="container">
+        <div class="hod-card glass">
+          <div class="hod-avatar">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <div class="hod-info">
+            <h4>Head of Department</h4>
+            <p>Prof. Shikhar Kumar Sarma</p>
+            <a href="mailto:sks@gauhati.ac.in" class="hod-email">
+              <i class="fas fa-envelope"></i>
+              sks@gauhati.ac.in
+            </a>
+          </div>
+        </div><br>
+        <div class="section-header">
+          <span class="section-tag">Academic Programs</span>
+          <h2 class="section-title">New Initiatives</h2>
+        </div>
+
+        <div class="program-banner glass">
+          <div class="program-overlay">
+            <div class="program-badge neon">NEW</div>
+            <h3>AI & Machine Learning Programs</h3>
+            <ul class="program-list">
+              <li>
+                <i class="fas fa-check-circle"></i> M.Tech (Research) in AI-ML
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> B.Tech (CSE/IT) with Honours
+                in AI-ML
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> B.Tech (CSE/IT) with Honours
+                in Data Science
+              </li>
+            </ul>
+            <button class="btn-primary glow">
+              <i class="fas fa-info-circle"></i>
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section" id="events">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Upcoming Events</span>
+          <h2 class="section-title">RegICON 2025</h2>
+        </div>
+
+        <div class="event-card-modern glass">
+          <div class="event-badge neon">FEATURED EVENT</div>
+
+          <div class="event-header">
+            <div class="event-icon-modern">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="event-title-group">
+              <h3 class="event-main-title">RegICON 2025</h3>
+              <p class="event-subtitle-modern">
+                Regional International Conference on Natural Language Processing
+              </p>
+            </div>
+          </div>
+
+          <div class="event-details-grid">
+            <div class="event-detail-item">
+              <i class="fas fa-calendar"></i>
+              <div>
+                <span class="detail-label">Date</span>
+                <span class="detail-value">27-29 November 2025</span>
+              </div>
+            </div>
+
+            <div class="event-detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="detail-label">Venue</span>
+                <span class="detail-value">IT Dept, Gauhati University</span>
+              </div>
+            </div>
+
+            <div class="event-detail-item">
+              <i class="fas fa-globe"></i>
+              <div>
+                <span class="detail-label">Type</span>
+                <span class="detail-value">International Conference</span>
+              </div>
+            </div>
+
+            <div class="event-detail-item">
+              <i class="fas fa-users"></i>
+              <div>
+                <span class="detail-label">Expected</span>
+                <span class="detail-value">500+ Participants</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="event-theme glass">
+            <h4><i class="fas fa-lightbulb"></i> Theme</h4>
+            <p>
+              NLP for East India, North East India and Southeast Asia – Bridging
+              Borders, Building Resources
+            </p>
+          </div>
+
+          <div class="event-actions">
+            <button class="btn-primary glow" id="registerBtn">
+              <i class="fas fa-ticket-alt"></i>
+              Register Now
+            </button>
+            <button class="btn-secondary glass" id="detailsBtn">
+              <i class="fas fa-info-circle"></i>
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities & Resources -->
+    <section class="facilities-section" id="facilities">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Resources</span>
+          <h2 class="section-title">Facilities & Resources</h2>
+        </div>
+
+        <div class="facilities-tabs">
+          <button class="tab-btn active" data-tab="facilities-tab">
+            <i class="fas fa-building"></i>
+            Facilities
+          </button>
+          <button class="tab-btn" data-tab="resources">
+            <i class="fas fa-book"></i>
+            Resources
+          </button>
+          <button class="tab-btn" data-tab="links">
+            <i class="fas fa-link"></i>
+            Important Links
+          </button>
+        </div>
+
+        <div class="tab-content active" id="facilities-tab">
+          <div class="resource-grid">
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <h4>Academic Facilities</h4>
+              <p>Modern classrooms and lecture halls</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-heartbeat"></i>
+              </div>
+              <h4>Healthcare & Sports</h4>
+              <p>Medical center and sports complex</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <h4>Campus Facilities</h4>
+              <p>Wi-Fi, cafeteria, and more</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <h4>Residential Facilities</h4>
+              <p>Hostels and accommodation</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="tab-content" id="resources">
+          <div class="resource-grid">
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-book-reader"></i>
+              </div>
+              <h4>Library Access</h4>
+              <p>Off-campus digital library</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-video"></i>
+              </div>
+              <h4>SWAYAM</h4>
+              <p>Online learning platform</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-scroll"></i>
+              </div>
+              <h4>National Education Policy</h4>
+              <p>NEP 2020 resources</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-laptop"></i>
+              </div>
+              <h4>ITEP</h4>
+              <p>IT training programs</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-universal-access"></i>
+              </div>
+              <h4>Disability Support</h4>
+              <p>Accessibility services</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h4>Digital Resources</h4>
+              <p>Library and academic tools</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h4>Academic Resources</h4>
+              <p>Study materials and guides</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-user-graduate"></i>
+              </div>
+              <h4>Student Resources</h4>
+              <p>Support and guidance</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <h4>Anti Ragging Helpline</h4>
+              <p>24/7 support service</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="tab-content" id="links">
+          <div class="resource-grid">
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <h4>NAAC</h4>
+              <p>National Assessment Council</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h4>Cyber Crime Portal</h4>
+              <p>National reporting portal</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-hands-helping"></i>
+              </div>
+              <h4>Samadhaan</h4>
+              <p>Grievance redressal</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <h4>UGC</h4>
+              <p>University Grants Commission</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-clipboard-check"></i>
+              </div>
+              <h4>SLET Commission</h4>
+              <p>State level eligibility test</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-archive"></i>
+              </div>
+              <h4>NAD</h4>
+              <p>National Academic Depository</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-atom"></i>
+              </div>
+              <h4>PANE</h4>
+              <p>Physics Academy North East</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-map"></i>
+              </div>
+              <h4>Northeastern Geographer</h4>
+              <p>Regional geography journal</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-credit-card"></i>
+              </div>
+              <h4>ICICI Payment</h4>
+              <p>Online payment portal</p>
+            </a>
+
+            <a href="#" class="resource-card glass">
+              <div class="resource-icon">
+                <i class="fas fa-money-check-alt"></i>
+              </div>
+              <h4>SBI Collect</h4>
+              <p>Fee payment system</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact/Footer Section -->
+    <footer class="footer-modern" id="contact">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- University Info -->
+          <div class="footer-col">
+            <div class="footer-logo">
+              <img src="assets/gu-logo-green.png" alt="Gauhati University" />
+            </div>
+            <h3>Gauhati University</h3>
+            <p class="footer-address">
+              <i class="fas fa-map-marker-alt"></i>
+              Guwahati-781014, Assam, India
+            </p>
+            <p class="footer-email">
+              <i class="fas fa-envelope"></i>
+              registrar[at]gauhati[dot]ac[dot]in
+            </p>
+
+            <div class="social-links-modern">
+              <a href="#" class="social-btn glass">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-btn glass">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-btn glass">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-btn glass">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="social-btn glass">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Information</h4>
+            <ul class="footer-links">
+              <li><a href="#">Institutional Development Plan</a></li>
+              <li><a href="#">Newsletters</a></li>
+              <li><a href="#">Reservation Roster</a></li>
+              <li><a href="#">SOP for Trekking</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="#">Campus News</a></li>
+              <li><a href="#">Collaborations</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>About Us</h4>
+            <ul class="footer-links">
+              <li><a href="#">Vision and Mission</a></li>
+              <li><a href="#">Core Values</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Recognition Approval</a></li>
+              <li><a href="#">Vice Chancellors</a></li>
+              <li><a href="#">Annual Reports</a></li>
+              <li><a href="#">Campus Map</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Grievance Redressal</h4>
+            <ul class="footer-links">
+              <li><a href="#">Caste Discrimination Committee</a></li>
+              <li><a href="#">POSH Internal Committee</a></li>
+              <li><a href="#">Right to Information</a></li>
+              <li><a href="#">Student Grievance Cell</a></li>
+              <li><a href="#">Equal Opportunity Cell</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="map-container glass">
+          <div class="map-embed">
+            <img src="assets/map.png" alt="University Location" />
+            <div class="map-overlay">
+              <a
+                href="https://www.google.com/maps/place/Department+of+IT,Gauhati+University/@26.1577287,91.6677501,18.29z/data=!4m6!3m5!1s0x375a44c7b1e4b819:0xbab872e287cf1951!8m2!3d26.1582473!4d91.6679548!16s%2Fg%2F11g6l_r_1c?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                class="map-link"
+              >
+                <i class="fas fa-map-marked-alt"></i>
+                View on Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p>&copy; BY SARTAZ , DIBYAJYOTI & JYOTIMAY.</p>
+          <p class="dev-credit">
+            Designed with <i class="fas fa-heart"></i> for modern web
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <button class="fab-scroll glass" id="scrollTop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Event Details Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal-container glass">
+        <button class="modal-close" id="modalClose">
+          <i class="fas fa-times"></i>
+        </button>
+
+        <div class="modal-header">
+          <h2>RegICON 2025</h2>
+          <p>
+            Regional International Conference on Natural Language Processing
+          </p>
+        </div>
+
+        <div class="modal-body">
+          <div class="modal-section">
+            <h3><i class="fas fa-info-circle"></i> About the Conference</h3>
+            <p>
+              RegICON 2025 is a premier international conference focusing on
+              Natural Language Processing advancements in East India, North East
+              India, and Southeast Asia.
+            </p>
+          </div>
+
+          <div class="modal-section">
+            <h3><i class="fas fa-calendar-alt"></i> Important Dates</h3>
+            <ul class="date-list">
+              <li><strong>Paper Submission:</strong> September 15, 2025</li>
+              <li>
+                <strong>Acceptance Notification:</strong> October 20, 2025
+              </li>
+              <li><strong>Camera Ready:</strong> November 10, 2025</li>
+              <li><strong>Conference Dates:</strong> November 27-29, 2025</li>
+            </ul>
+          </div>
+
+          <div class="modal-section">
+            <h3><i class="fas fa-bullhorn"></i> Call for Papers</h3>
+            <p>
+              We invite original research papers, case studies, and review
+              papers on all aspects of Natural Language Processing.
+            </p>
+          </div>
+
+          <div class="modal-actions">
+            <button class="btn-primary glow">
+              <i class="fas fa-file-download"></i>
+              Download Brochure
+            </button>
+            <button class="btn-secondary glass">
+              <i class="fas fa-envelope"></i>
+              Contact Organizers
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
