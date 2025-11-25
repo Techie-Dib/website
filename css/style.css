@@ -1737,25 +1737,6 @@ section {
    RESPONSIVE DESIGN
    ======================================== */
 
-/* Tablet */
-@media screen and (max-width: 480px) {
-  .quick-links-menu {
-    display: none;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .features-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 /* Mobile */
 @media screen and (max-width: 768px) {
   /* Navigation */
@@ -2081,3 +2062,22 @@ textarea:focus {
     transition-duration: 0.01ms !important;
   }
 }
+/* Tablet */
+@media screen and (max-width: 480px) {
+  .quick-links-menu {
+    display: none;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
