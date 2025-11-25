@@ -10,11 +10,11 @@
   --bg-tertiary: #dfe5eb;         /* subtle section background */
 
   /* Soft Accents (Green + Yellow Theme) */
-  --neon-cyan: #4da886;           /* soft university green */
-  --neon-purple: #5f7a6f;         /* muted greenish grey (replaces navy) */
-  --neon-pink: #f4d06f;           /* soft golden yellow (replaces pink) */
-  --neon-yellow: #e1c340;         /* darker academic yellow */
-  --neon-green: #3b7f63;          /* deep institutional green */
+  --green: #4da886;           /* soft university green */
+  --grey: #5f7a6f;         /* muted greenish grey (replaces navy) */
+  --golden: #f4d06f;           /* soft golden yellow (replaces pink) */
+  --yellow: #e1c340;         /* darker academic yellow */
+  --dark-green: #3b7f63;          /* deep institutional green */
 
   /* Glass Effect */
   --glass-bg: rgba(255, 255, 255, 0.65);
@@ -27,9 +27,9 @@
   --text-muted: #7b8798;          /* subtle muted text */
 
   /* Gradients (Green–Yellow Professional Style) */
-  --gradient-1: linear-gradient(135deg, var(--neon-green), var(--neon-yellow));
-  --gradient-2: linear-gradient(135deg, var(--neon-cyan), var(--neon-pink));
-  --gradient-3: linear-gradient(135deg, var(--neon-green), var(--neon-cyan));
+  --gradient-1: linear-gradient(135deg, var(--dark-green), var(--yellow));
+  --gradient-2: linear-gradient(135deg, var(--green), var(--golden));
+  --gradient-3: linear-gradient(135deg, var(--dark-green), var(--green));
 
 
   /* Spacing */
@@ -82,7 +82,7 @@ body {
 }
 
 ::selection {
-  background: var(--neon-cyan);
+  background: var(--green);
   color: var(--bg-primary);
 }
 
@@ -243,9 +243,9 @@ body {
   transform: translateX(-50%);
   width: 6px;
   height: 6px;
-  background: var(--neon-cyan);
+  background: var(--green);
   border-radius: 50%;
-  box-shadow: 0 0 10px var(--neon-cyan);
+  box-shadow: 0 0 10px var(--green);
 }
 
 /* Mobile Toggle */
@@ -369,9 +369,9 @@ body {
   width: 100%;
   background: linear-gradient(
     90deg,
-    var(--neon-cyan),
-    var(--neon-purple),
-    var(--neon-pink)
+    var(--green),
+    var(--grey),
+    var(--golden)
   );
   padding: 12px 0;
   overflow: hidden;
@@ -440,11 +440,11 @@ body {
 }
 
 .breadcrumb-modern .crumb:hover {
-  color: var(--neon-cyan);
+  color: var(--green);
 }
 
 .breadcrumb-modern .crumb.current {
-  color: var(--neon-cyan);
+  color: var(--green);
   font-weight: 600;
 }
 
@@ -535,7 +535,7 @@ body {
 
 .stat-card:hover {
   transform: translateY(-10px);
-  border-color: var(--neon-cyan);
+  border-color: var(--green);
   box-shadow: 0 10px 40px rgba(0, 217, 255, 0.3);
 }
 
@@ -631,7 +631,7 @@ body {
 
 .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.1);
-  border-color: var(--neon-cyan);
+  border-color: var(--green);
   transform: translateY(-3px);
 }
 
@@ -668,14 +668,14 @@ body {
 .wheel {
   width: 3px;
   height: 8px;
-  background: var(--neon-cyan);
+  background: var(--green);
   border-radius: 2px;
   position: absolute;
   top: 8px;
   left: 50%;
   transform: translateX(-50%);
   animation: scroll 2s infinite ease-in-out;
-  box-shadow: 0 0 8px var(--neon-cyan);
+  box-shadow: 0 0 8px var(--green);
 }
 
 @keyframes scroll {
@@ -741,7 +741,7 @@ body {
 }
 
 .quick-link-btn:hover {
-  background: var(--neon-cyan);
+  background: var(--green);
   color: var(--bg-primary);
   transform: scale(1.1);
   box-shadow: 0 5px 20px rgba(0, 217, 255, 0.5);
@@ -794,7 +794,7 @@ section {
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-xl);
   font-size: 14px;
-  color: var(--neon-cyan);
+  color: var(--green);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -849,7 +849,7 @@ section {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: var(--neon-cyan);
+  background: var(--green);
   color: var(--bg-primary);
   border: none;
   font-size: 24px;
@@ -859,7 +859,7 @@ section {
 
 .play-btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 30px var(--neon-cyan);
+  box-shadow: 0 0 30px var(--green);
 }
 
 .content-card {
@@ -950,7 +950,7 @@ section {
 .program-badge {
   display: inline-block;
   padding: 8px 20px;
-  background: var(--neon-green);
+  background: var(--dark-green);
   color: var(--bg-primary);
   font-weight: 700;
   border-radius: var(--radius-xl);
@@ -967,10 +967,10 @@ section {
 @keyframes neonPulse {
   0%,
   100% {
-    box-shadow: 0 0 10px var(--neon-green);
+    box-shadow: 0 0 10px var(--dark-green);
   }
   50% {
-    box-shadow: 0 0 25px var(--neon-green);
+    box-shadow: 0 0 25px var(--dark-green);
   }
 }
 
@@ -1004,7 +1004,7 @@ section {
 }
 
 .program-list i {
-  color: var(--neon-cyan);
+  color: var(--green);
   font-size: 18px;
 }
 
@@ -1020,7 +1020,7 @@ section {
 
 .hod-card:hover {
   transform: translateY(-5px);
-  border-color: var(--neon-cyan);
+  border-color: var(--green);
 }
 
 .hod-avatar {
@@ -1055,14 +1055,14 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: var(--neon-cyan);
+  color: var(--green);
   text-decoration: none;
   font-size: 14px;
   transition: color var(--transition-fast);
 }
 
 .hod-email:hover {
-  color: var(--neon-purple);
+  color: var(--grey);
 }
 
 /* ========================================
@@ -1081,7 +1081,7 @@ section {
   top: 30px;
   right: 30px;
   padding: 10px 25px;
-  background: var(--neon-pink);
+  background: var(--golden);
   color: var(--text-primary);
   font-weight: 700;
   border-radius: var(--radius-xl);
@@ -1146,12 +1146,12 @@ section {
 
 .event-detail-item:hover {
   background: rgba(255, 255, 255, 0.05);
-  border-color: var(--neon-cyan);
+  border-color: var(--green);
 }
 
 .event-detail-item i {
   font-size: 24px;
-  color: var(--neon-cyan);
+  color: var(--green);
   flex-shrink: 0;
 }
 
@@ -1187,7 +1187,7 @@ section {
 }
 
 .event-theme i {
-  color: var(--neon-yellow);
+  color: var(--yellow);
 }
 
 .event-theme p {
@@ -1301,7 +1301,7 @@ section {
 
 .resource-card:hover {
   transform: translateY(-10px);
-  border-color: var(--neon-cyan);
+  border-color: var(--green);
   box-shadow: 0 10px 40px rgba(0, 217, 255, 0.3);
 }
 
@@ -1400,13 +1400,13 @@ section {
 }
 
 .footer-email {
-  color: var(--neon-cyan);
+  color: var(--green);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
 
 .footer-email:hover {
-  color: var(--neon-purple);
+  color: var(--grey);
 }
 
 .social-links-modern {
@@ -1430,7 +1430,7 @@ section {
 
 .social-btn:hover {
   transform: translateY(-5px) rotate(5deg);
-  background: var(--neon-cyan);
+  background: var(--green);
   color: var(--bg-primary);
   box-shadow: 0 5px 20px rgba(0, 217, 255, 0.5);
 }
@@ -1461,7 +1461,7 @@ section {
 }
 
 .footer-links a:hover {
-  color: var(--neon-cyan);
+  color: var(--green);
   padding-left: 10px;
 }
 
@@ -1511,7 +1511,7 @@ section {
 
 .map-link {
   padding: 15px 30px;
-  background: var(--neon-cyan);
+  background: var(--green);
   color: var(--bg-primary);
   text-decoration: none;
   border-radius: var(--radius-md);
@@ -1541,7 +1541,7 @@ section {
 }
 
 .dev-credit i {
-  color: var(--neon-pink);
+  color: var(--golden);
   animation: heartbeat 1.5s infinite;
 }
 
@@ -1583,7 +1583,7 @@ section {
 .fab-scroll:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 217, 255, 0.5);
-  background: var(--neon-cyan);
+  background: var(--green);
   color: var(--bg-primary);
 }
 
@@ -1652,7 +1652,7 @@ section {
 }
 
 .modal-close:hover {
-  background: var(--neon-pink);
+  background: var(--golden);
   transform: rotate(90deg);
 }
 
@@ -1699,7 +1699,7 @@ section {
 }
 
 .modal-section h3 i {
-  color: var(--neon-cyan);
+  color: var(--green);
 }
 
 .modal-section p {
@@ -1723,7 +1723,7 @@ section {
 }
 
 .date-list strong {
-  color: var(--neon-cyan);
+  color: var(--green);
 }
 
 .modal-actions {
@@ -1956,7 +1956,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--neon-cyan);
+  background: var(--green);
 }
 
 /* ========================================
@@ -1989,7 +1989,7 @@ a:focus,
 button:focus,
 input:focus,
 textarea:focus {
-  outline: 2px solid var(--neon-cyan);
+  outline: 2px solid var(--green);
   outline-offset: 2px;
 }
 
@@ -2026,7 +2026,7 @@ textarea:focus {
 
 .ppl-card:hover {
   transform: translateY(-5px);
-  border-color: var(--neon-cyan);
+  border-color: var(--green);
 }
 
 .ppl-avatar {
@@ -2061,14 +2061,14 @@ textarea:focus {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: var(--neon-cyan);
+  color: var(--green);
   text-decoration: none;
   font-size: 14px;
   transition: color var(--transition-fast);
 }
 
 .ppl-email:hover {
-  color: var(--neon-purple);
+  color: var(--grey);
 }
 
 /* Reduced motion for accessibility */
